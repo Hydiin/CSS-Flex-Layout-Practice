@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px #ccc solid;
+    padding: 24px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.box {
+    border: 4px #ccc solid;
+    margin-bottom: 24px;
+}
+
+.large {
+    width: 45%;
+}
+
+.small {
+    height: 40px;
+}
+
+.box-wrapper {
+    width: 45%;
+}
